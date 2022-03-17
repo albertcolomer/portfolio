@@ -1,0 +1,16 @@
+
+<section class="container" id="certificates" > 
+    <div  data-aos="zoom-in" data-aos-duration="3000">
+        <h3 class="title">{{title}}</h3>
+        <img class='imgtitle' title='certificates'[src]='icon'>    
+    </div>
+
+    <ul *ngFor="let data of dataCertificates"  data-aos="zoom-in" data-aos-duration="3000" data-aos-anchor-placement="center-center">
+        <li>
+            <img class="azure" title="Azure"  [src]=data.insignia/>            
+            <a class='lin' href={{data.details}} target="_blank"> <img  class="credly" [src]=data.iconCredly></a>            
+        </li>
+    </ul>
+    
+    <br><br><br><br>    <br><br><br><br>    <br><br><br><br>
+</section>

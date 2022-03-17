@@ -1,0 +1,17 @@
+.projects {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  &-section {
+    margin: 0 auto;
+    padding: 50px 10px;
+    width: 90%;
+  }
+}
+
+@media (min-width: 1020px) {
+  .projects-section {
+    width: 80%;
+  }
+}

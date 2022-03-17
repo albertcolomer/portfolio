@@ -1,0 +1,12 @@
+<section class="projects-section" id="projects">
+  <div data-aos="zoom-in" data-aos-duration="3000">
+    <h2 class="title">Projects</h2>
+    <img class="imgtitle" [src]="icono"/>
+  </div>
+
+  <div class="projects" >
+    <app-project *ngFor="let project of projects" [project]="project" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="3000"></app-project>
+  </div>
+</section>

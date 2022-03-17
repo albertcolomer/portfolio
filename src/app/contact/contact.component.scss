@@ -1,0 +1,20 @@
+.social-link {
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.social-link:hover {
+  background-color: var(--primary);
+}
+
+.contact-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-container {
+  background-color: var(--secondary);
+  padding: 10px 30px;
+}

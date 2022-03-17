@@ -1,0 +1,51 @@
+<header class="flex-container header">
+  <div class="brand-container">
+    <a href="#hero">
+      <img class="responsive-image" [src]="brand" alt="Brand">
+    </a>
+  </div>
+
+<!-- ALTERNATIVE NAVBAR -->
+<!--   <a (click)="desplegarM()">
+    <img class="menu-icon" [src]="menuI"/>
+   
+  </a>
+  <nav *ngIf="show">
+    
+    <ul >
+      <li class="header__link">
+        <a href="#aboutme">Sobre mi</a>
+      </li>
+      <li class="header__link">
+        <a href="#experiences">Experiencia</a>
+      </li>
+      <li class="header__link">
+        <a href="#skills">Habilidades</a>
+      </li>
+      <li class="header__link">
+        <a href="#certificates">Certificados</a>
+      </li>
+      <li class="header__link">
+        <a href="#projects">Proyectos</a>
+      </li>
+      <li class="header__link">
+        <a href="#contact">Contacto</a>
+      </li>
+    </ul>
+  </nav> -->
+  <div >
+    <span  class="btnmenu">
+   <a (click)="desplegarM0()"><img [src]="closedIcon"></a>
+  </span >
+  </div>
+    
+  <span></span>
+
+  <a href="https://github.com/albertcolomer" target="_blank">
+    <img class="social" title="Git" [src]="gitS" alt=""><br>
+  </a>
+  <a title="Linkedin" href="https://github.com/albertcolomer" target="_blank">
+    <img class="social2" [src]="linkedin" alt=""><br>
+  </a>
+
+</header>

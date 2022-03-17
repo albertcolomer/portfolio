@@ -1,0 +1,125 @@
+.hero {
+  background: url("../../assets/image/empresarial5.jpeg");
+  background-color: rgba(0, 0, 0, 0.822);
+  background-position: center;
+  background-size: cover;
+  
+  min-height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    font-size: 34px;
+    margin: 10px 0;
+    color: rgba(252, 252, 252, 0.938) ;
+    
+    text-shadow: 2px 2px 4px #000000;
+    
+  }
+  &__paragraph {
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(25, 112, 138);
+    
+  }
+}
+
+//maquina de escribir
+p {
+  width: 0;
+  overflow: hidden;
+  white-space:nowrap;  
+  margin: 0 auto;
+    
+  //signo intermitente
+  border-right: 0.15em solid #18beec94;
+  animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+//animacion intremitente
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+//distorsion
+
+$background: rgb(0, 0, 0);
+$foreground: rgb(255, 255, 255);
+
+//@import 'bourbon';
+
+/* @mixin gitchText($offset, $text) {
+  content: $text;
+  position: absolute;
+  left: $offset;
+  top: $offset;
+  clip: rect(0, 900px, 0, 0);  */
+  //background-color: $background;
+  /* color: $foreground; */
+  /* animation: glitch 3s infinite alternate-reverse; */
+  /* animation-delay: 4s; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
+
+/* h3:first-child {
+  color: #2ecf57bd;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+} */
+
+h3:last-child {
+  color: rgba(223, 49, 49, 0);
+  //background-color: $background;
+  animation: fadeWhite 4s forwards;
+  animation-delay: 2s;
+  //position: relative;
+  display: flex;
+  justify-content: center;
+  /* &:after {
+    @include gitchText(20px, 'Frontend Developer');
+    //align-items: center;    
+    //position: relative;
+  }
+  &:before {
+    @include gitchText(-2px, 'Frontend Developer');
+    align-items: center;
+    //position: relative;
+  } */
+}
+
+@keyframes fadeWhite {
+  100% { color: $foreground; }
+}
+
+@keyframes glitch {
+  $steps: 20; 
+  @for $i from 0 through $steps{
+    #{percentage($i * (1 / $steps))}{
+      clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .hero{
+    &__title{
+      font-size: 25px;
+    }
+  }
+}

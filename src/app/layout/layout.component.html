@@ -1,0 +1,11 @@
+
+<app-hero ></app-hero>
+<app-aboutme ></app-aboutme>
+<app-experiences></app-experiences>
+<app-skills ></app-skills>
+<app-certificates></app-certificates>
+<app-projects></app-projects>
+<app-header style="position: fixed; top: 0px;left: 0px;"></app-header>
+<span class='btnmenu'><a (click)="desplegarMC()"><img [src]="closedIcon"></a></span>
+<app-navbar *ngIf="showC" class="menu" (btn)='change()'></app-navbar>
+<app-footer></app-footer>

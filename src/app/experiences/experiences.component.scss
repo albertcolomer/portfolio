@@ -1,0 +1,110 @@
+.experiences {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  &-section {
+    margin: 0 auto;
+    padding: 50px 10px;
+    width: 90%;
+  }
+
+  .caja {
+      //border: solid;
+      border-radius: 10px ;	   
+      margin: 10px 20px 30px 20px;    
+      padding-top: 20px;
+      max-width: 530px;
+      min-width: 270px;
+      background: rgba(216, 218, 231, 0.363);
+      box-shadow: black 5px 5px 8px;
+      text-align: center;
+      ul{
+        li{
+          padding-bottom: 18px;
+          p{
+            text-align: start;
+          }
+        }
+      }
+  }
+}
+
+.cabecera{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+    .iconE{
+      display: flex;
+      flex-direction: column-reverse;
+      //border: outset;
+      padding: 0px 20px 10px;
+      margin: 0px 10px;
+      border-radius: 15px;
+      background: linear-gradient(352deg, #607d8b54, #ffffff00);
+      p{
+        padding: 15px 0px;
+        font-weight: bold;
+      }
+      img{
+        max-width: 100px;
+      }
+    }
+
+    .info{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      min-height: 170px;
+      margin: 0px 8px;
+      align-items: flex-stretch; 
+    }
+
+}
+
+.caja_interior {
+    height: 0;
+    overflow: hidden;
+
+    -webkit-transition: height 2s;
+    -moz-transition: height 1s;
+    transition: height 2s;    
+    
+    margin: 20px 70px 0px 70px ;
+
+    img {
+      margin-left: 20px;
+    }
+
+    a{  
+      //font:caption;
+      background-color: rgba(180, 158, 201, 0.39);
+      border-radius: 15px;
+      font-style: oblique;
+      &:hover{
+        font: normal;
+        background-color: rgba(137, 43, 226, 0);
+        text-decoration: underline;
+      }
+    }
+}
+.caja:hover .caja_interior{
+    height:410px;
+}
+
+@media (min-width: 1020px) {
+    .experiences-section {
+      width: 80%;
+    }
+   
+  }
+
+ /*  @media (max-width: 600px) {
+  
+    .caja{
+      width: 380px;
+      
+    }
+  } */

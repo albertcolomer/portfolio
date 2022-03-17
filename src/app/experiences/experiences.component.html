@@ -1,0 +1,58 @@
+<section class="container" id="experiences">
+
+  <div data-aos="zoom-in" data-aos-duration="3000">
+    <h2 class="title" >{{title}}</h2>
+    <img class="imgtitle" [src]="icono" alt="">
+  </div>
+
+  <div class="experiences"  >
+    <div class="caja" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000" *ngFor="let data of dataExp">
+      <div class="cabecera">
+        <div class="iconE">
+          <img [src]="data.logo">
+          <p>{{data.empresa}}</p>
+        </div>
+        
+        <ul class="info">
+          <li>
+            <p><b>Department:</b></p>
+            <p> {{data.departamento}}</p>
+          </li>
+          <li>
+            <p><b>Position:</b></p>
+            <p>{{data.puesto}}</p>
+          </li>
+        </ul>
+      </div>
+      
+      <ul class="caja_interior ">
+        <li>
+          <p><b>Date:</b></p>
+          <p>{{data.date}}</p>
+        </li>
+        <li>
+          <p><b>Functions:</b></p>
+          <p>{{data.funciones}}</p>
+        </li>
+        <li>
+          <p><b>Duties:</b></p>
+          <p>{{data.competencias}}</p>
+        </li>
+
+        <li>
+          <a href={{data.url}} target="_blank">
+            {{data.comentario}}
+          </a>
+        </li>
+
+        <li>
+          <img  [src]='data.skill1'>
+          <img  [src]='data.skill2'>
+          <img  [src]='data.skill3'>
+          <img  [src]='data.skill4'>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</section>
