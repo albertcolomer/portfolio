@@ -18,7 +18,7 @@ export class CertificatesComponent implements OnInit {
     {
       'insignia':'assets/image/azure.png',
       'copia':'',
-      'iconCredly':'assets/image/Credly.webp',
+      'iconCredly':'assets/image/credly.jpg',
       'details':'https://www.credly.com/badges/65aaadbc-4126-461a-9bb7-84e8a9b8e08c/public_url',
   }]
 

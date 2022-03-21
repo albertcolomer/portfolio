@@ -23,7 +23,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  desplegarM(){
+  /* alternative menu */
+  /* desplegarM(){
     if(this.show){
       this.show=false
       this.menuI="https://img.icons8.com/fluency/40/000000/menu--v1.png";
@@ -32,7 +33,7 @@ export class HeaderComponent implements OnInit {
       this.menuI="https://img.icons8.com/fluency/48/000000/double-right.png";
     }
       
-  }
+  } */
 
   desplegarM0(){
     console.log(this.showC);
