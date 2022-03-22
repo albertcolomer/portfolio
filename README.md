@@ -1,6 +1,13 @@
 # Cv22
-<img src="https://github.com/albertcolomer/albertcolomer/blob/main/porfolio.png">
+<img align="center"src="https://github.com/albertcolomer/albertcolomer/blob/main/porfolio.png">
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
+
+Angular
+Components & templates.
+Directivas estructurales (ngIf / ngFor)
+@Input | @Ouput
+Uso de HttpClient
+Manejos de rutas
 
 ## Development server
 
