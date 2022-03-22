@@ -1,5 +1,5 @@
 # Cv22
-<img align="center"src="https://github.com/albertcolomer/albertcolomer/blob/main/porfolio.png">
+<img align="center" src="https://github.com/albertcolomer/albertcolomer/blob/main/porfolio.png">
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
 
 Angular
