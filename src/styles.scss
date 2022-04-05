@@ -47,7 +47,7 @@ li {
 }
 
 .title {
-  font-size: 40px;
+  font-size: 28px;
   margin: 65px 0px 30px 0px;
 }
 
@@ -82,5 +82,8 @@ body {
 @media (min-width: 700px) {
   body {
     font-size: 22px;
+  }
+  .title{
+    font-size: 40px;
   }
 }

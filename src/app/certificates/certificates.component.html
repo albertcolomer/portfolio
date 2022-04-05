@@ -5,12 +5,15 @@
         <img class='imgtitle' title='certificates'[src]='icon'>    
     </div>
 
-    <ul *ngFor="let data of dataCertificates"  data-aos="zoom-in" data-aos-duration="3000" data-aos-anchor-placement="center-center">
+    <ul *ngFor="let data of dataCertificates"  data-aos="zoom-in" data-aos-duration="3000" >
         <li>
-            <img class="azure" title="Azure"  [src]=data.insignia/>            
+            <p style="max-width: 150px;">{{data.copia}} </p>             
+            <img class="azure"  [src]=data.insignia/>
+            <p>{{data.codigo}}</p>
             <a class='lin' href={{data.details}} target="_blank"> <img  class="credly" [src]=data.iconCredly></a>            
         </li>
+        
     </ul>
     
-    <br><br><br><br>    <br><br><br><br>    <br><br><br><br>
+    
 </section>
