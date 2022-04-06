@@ -6,11 +6,11 @@
     </div>
 
     <ul *ngFor="let data of dataCertificates"  data-aos="zoom-in" data-aos-duration="3000" >
-        <li>
-            <p style="max-width: 150px;">{{data.copia}} </p>             
-            <img class="azure"  [src]=data.insignia/>
-            <p>{{data.codigo}}</p>
-            <a class='lin' href={{data.details}} target="_blank"> <img  class="credly" [src]=data.iconCredly></a>            
+        <li class="certificates">
+            <p class='nameC'>{{data.name}} </p>             
+            <img [src]=data.insignia/>
+            <p>{{data.code}}</p>
+            <a class='link' href={{data.details}} target="_blank"> <img [src]=data.provider></a>            
         </li>
         
     </ul>
