@@ -12,7 +12,7 @@ export const projects = [
     github: 'https://github.com/albertcolomer/portfolio',
   },
   {
-    title: 'Buscador Wikipedia',
+    title: 'Optimized Wiki Search ',
     skills:'https://img.icons8.com/color/30/000000/html-5--v1.png', 
     skill2:"https://img.icons8.com/color/30/000000/angularjs.png",
     skill3: "https://img.icons8.com/color/30/000000/css.png",
