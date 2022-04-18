@@ -11,7 +11,7 @@ export class NavbarComponent implements OnInit {
 
   dataMenu = [
     {
-      'titulo': 'Abaout me',
+      'titulo': 'About me',
       'icon': 'https://img.icons8.com/fluency/30/000000/about-us-male.png',
       'url': "#aboutme"
     },
