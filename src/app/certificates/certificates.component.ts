@@ -27,12 +27,18 @@ export class CertificatesComponent implements OnInit {
       'code':'code: 0982523646798833348167',
       'provider':'assets/image/madrid-28525_640.png',
       'details':'http://www.madrid.org/csv',
-  },{
-    'insignia':'assets/image/logo-CESUR-300x261.png',
-    'name':'IFCT078PO PATRONES SOFTWARE',
-    'code':' ',
-    'provider':'https://img.icons8.com/color/64/pdf-2.png',
-    'details':'assets/image/IFCT078PO___PATRONES_SOFTWAR.pdf',
+    },{
+      'insignia':'assets/image/logo-CESUR-300x261.png',
+      'name':'IFCT078PO PATRONES SOFTWARE',
+      'code':' ',
+      'provider':'https://img.icons8.com/color/64/pdf-2.png',
+      'details':'assets/image/IFCT078PO___PATRONES_SOFTWAR.pdf',
+    },{
+      'insignia':'assets/image/LogoCeinpro.jfif',
+      'name':'IFCD91 AR, VR, MR in environments 4.0',
+      'code':' ',
+      'provider':'https://img.icons8.com/color/64/pdf-2.png',
+      'details':'assets/image/Diploma VRAR.pdf',
 }]
 
   ngOnInit(): void {

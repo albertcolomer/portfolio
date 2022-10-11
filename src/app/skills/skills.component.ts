@@ -43,10 +43,6 @@ export class SkillsComponent implements OnInit {
       'icon':'https://img.icons8.com/color/40/000000/npm.png'
     },
     {
-      'title':'C++',
-      'icon':"https://img.icons8.com/color/60/000000/c-plus-plus-logo.png"
-    },
-    {
       'title':'Java',
       'icon':'https://img.icons8.com/color/70/000000/java-coffee-cup-logo--v1.png'
     },
@@ -72,6 +68,25 @@ database=[
   }
 
 ]
+game=[
+  {
+    'title':'Blender',
+    'icon':'https://img.icons8.com/color/70/000000/blender-3d.png'
+  },{
+    'title':'Autocad',
+    'icon':'https://img.icons8.com/fluency/70/000000/autocad.png'
+  },
+  {
+    'title':'Unity',
+    'icon':'https://img.icons8.com/color/70/000000/unity.png'
+  },
+  {
+    'title':'C#',
+    'icon':"https://img.icons8.com/color/60/000000/c-sharp-logo.png"
+  }
+
+]
+
 cloud=[
   {
     'title':'Azure',
