@@ -8,7 +8,7 @@ export const projects = [
     typescript:"https://img.icons8.com/color/30/000000/typescript.png",
     
     image: 'assets/image/porfolio2.png',
-    demo: 'https://globalvision.azurewebsites.net',
+    demo: '#hero',
     github: 'https://github.com/albertcolomer/portfolio',
   },
   {
