@@ -20,8 +20,8 @@ export const projects = [
     typescript:"https://img.icons8.com/color/30/000000/typescript.png",
     
     image: 'assets/image/wikipedia.png',
-    demo: 'https://wikisearch.azurewebsites.net/',
-    github: 'https://github.com/albertcolomer/wikisearch',
+    demo: 'https://albertcolomer.github.io/WikiSearchOp/',
+    github: 'https://github.com/albertcolomer/WikiSearchOp',
   },
   {
     title: 'Weather App',
@@ -32,7 +32,7 @@ export const projects = [
     typescript:"https://img.icons8.com/color/30/000000/typescript.png",
     
     image: 'assets/image/contrai.png',
-    demo: 'https://weatheralbert.azurewebsites.net/',
+    demo: 'https://albertcolomer.github.io/weatherAlbert/',
     github: 'https://github.com/albertcolomer/weatherAlbert',
   }
 ];

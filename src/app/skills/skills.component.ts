@@ -34,14 +34,14 @@ export class SkillsComponent implements OnInit {
     }]
 
     databack=[
-    {
+    /* {
       'title':'Nodejs',
       'icon':'https://img.icons8.com/color/80/000000/nodejs.png'
     },
     {
       'title':'npm',
       'icon':'https://img.icons8.com/color/40/000000/npm.png'
-    },
+    }, */
     {
       'title':'Java',
       'icon':'https://img.icons8.com/color/70/000000/java-coffee-cup-logo--v1.png'
@@ -57,7 +57,7 @@ export class SkillsComponent implements OnInit {
        
 
   ]
-database=[
+/* database=[
   {
     'title':'mongoDB',
     'icon':'https://img.icons8.com/color/70/000000/mongodb.png'
@@ -67,15 +67,15 @@ database=[
     'icon':'https://img.icons8.com/color/60/000000/mysql-logo.png'
   }
 
-]
+] */
 game=[
   {
     'title':'Blender',
     'icon':'https://img.icons8.com/color/70/000000/blender-3d.png'
-  },{
+  },/* {
     'title':'Autocad',
     'icon':'https://img.icons8.com/fluency/70/000000/autocad.png'
-  },
+  }, */
   {
     'title':'Unity',
     'icon':'https://img.icons8.com/color/70/000000/unity.png'
