@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'Rover Explore',
+    title: 'Rover Explore mrtk',
     skills:'https://img.icons8.com/dusk/30/000000/unity.png', 
     skill2:"https://img.icons8.com/color/30/null/webpack.png",
     skill3: "https://img.icons8.com/color/30/null/visual-studio--v2.png",
