@@ -4,16 +4,18 @@
         <h3 class="title">{{title}}</h3>
         <img class='imgtitle' title='certificates'[src]='icon'>    
     </div>
+    <div class="certi">
+        <ul *ngFor="let data of dataCertificates"  data-aos="zoom-in" data-aos-duration="3000" >
+            <li class="certificates">
+                <p class='nameC'><b>{{data.name}}</b> </p>             
+                <img [src]=data.insignia/>
+                <p>{{data.code}}</p>
+                <a class='link' href={{data.details}} target="_blank"> <img [src]=data.provider></a>            
+            </li>
+            
+        </ul>
 
-    <ul *ngFor="let data of dataCertificates"  data-aos="zoom-in" data-aos-duration="3000" >
-        <li class="certificates">
-            <p class='nameC'>{{data.name}} </p>             
-            <img [src]=data.insignia/>
-            <p>{{data.code}}</p>
-            <a class='link' href={{data.details}} target="_blank"> <img [src]=data.provider></a>            
-        </li>
-        
-    </ul>
+    </div>
     
     
 </section>

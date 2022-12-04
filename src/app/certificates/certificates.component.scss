@@ -2,12 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   margin: 30px 0px 60px;
+  
   img{
     max-width: 150px;
-    padding: 0px 10px;
+    padding: 0px 10px 50px 0px; 
   }
+}
+
+.certi{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .link{
@@ -28,6 +37,7 @@
 
 .nameC{
   max-width: 150px;
+  padding: 50px 0px;
 }
 
 
