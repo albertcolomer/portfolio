@@ -17,19 +17,19 @@ export class CertificatesComponent implements OnInit {
   dataCertificates=[
     {
       'insignia':'assets/image/azure.png',
-      'name':'AZ-900, AZURE FUNDAMENTALS',
+      'name':'AZ-900, Azure Fundamentals',
       'code':'',
       'provider':'assets/image/credly.jpg',
       'details':'https://www.credly.com/badges/65aaadbc-4126-461a-9bb7-84e8a9b8e08c/public_url',
     },{
       'insignia':'assets/image/Loeches.gif',
-      'name':'IFCT0609, COMPUTER SYSTEMS PROGRAMING',
+      'name':'IFCT0609, Computer Systems Programing',
       'code':'0982523646798833348167',
       'provider':'assets/image/madrid-28525_640.png',
       'details':'http://www.madrid.org/csv',
     },{
       'insignia':'assets/image/logo-CESUR-300x261.png',
-      'name':'IFCT078PO, PATRONES SOFTWARE',
+      'name':'IFCT078PO, Software Patterns',
       'code':' ',
       'provider':'https://img.icons8.com/color/64/pdf-2.png',
       'details':'assets/image/IFCT078PO___PATRONES_SOFTWAR.pdf',
@@ -39,7 +39,14 @@ export class CertificatesComponent implements OnInit {
       'code':' ',
       'provider':'https://img.icons8.com/color/64/pdf-2.png',
       'details':'assets/image/Diploma VRAR.pdf',
-}]
+    },{
+      'insignia':'assets/image/LOGO-HAZERTA.png',
+      'name':'IFCD28, AR/VR development Unity/C#',
+      'code':' ',
+      'provider':'https://img.icons8.com/color/64/pdf-2.png',
+      'details':'assets/image/IFCD28-RV-Unity.pdf',
+    }
+  ]
 
   ngOnInit(): void {
     
