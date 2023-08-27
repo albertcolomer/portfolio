@@ -15,11 +15,26 @@ export class ExperiencesComponent implements OnInit {
 
   dataExp=[
     {
+      'logo':'assets/image/Logo-MSL.png',
+      'empresa':'',
+      'departamento':'Develop AWS',
+      'date':'02/02/2023',
+      'puesto':'Internship',
+      'funciones':'API development with serverless services, lambda, s3, dynamoDB',
+      'competencias':'Tecnologies',
+      'skill1':'https://img.icons8.com/color/40/000000/amazon-web-services.png',
+      'skill2':'https://img.icons8.com/color/40/000000/awslambda.png',
+      'skill3':'https://img.icons8.com/external-phatplus-solid-phatplus/40/external-api-cloud-security-phatplus-solid-phatplus.png',
+      'skill4':'https://img.icons8.com/color/40/000000/unity.png',
+      'url':''
+
+    },
+    {
       'logo':'assets/image/agrupoSist.png',
       'empresa':'Agrupo Sistemas',
       'departamento':'Develop',
       'date':'02/01/2020 - 04/30/2021',
-      'puesto':'Junior',
+      'puesto':'Front-end',
       'funciones':'Develop in several projects front-end/back-end ',
       'competencias':'Tecnologies',
       'skill1':'https://img.icons8.com/color/40/000000/angularjs.png',
