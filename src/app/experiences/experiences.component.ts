@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperiencesComponent implements OnInit {
 
-  title= 'Experiences'
+  title= 'Experience'
   icono='https://img.icons8.com/ios-filled/100/000000/macbook-money--v1.png';
   angular="https://img.icons8.com/ios-filled/30/000000/angularjs.png"
   

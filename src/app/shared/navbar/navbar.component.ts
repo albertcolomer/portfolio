@@ -16,7 +16,7 @@ export class NavbarComponent implements OnInit {
       'url': "#aboutme"
     },
     {
-      'titulo': 'Experiences',
+      'titulo': 'Experience',
       'icon': 'https://img.icons8.com/fluency/30/000000/macbook-money--v1.png',
       'url': "#experiences"
     },
